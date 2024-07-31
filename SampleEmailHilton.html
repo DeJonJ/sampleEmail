@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Hilton Family Vacation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+        .email-container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #003580;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .header img {
+            width: 150px;
+            margin: auto;
+        }
+        .hero {
+            width: 100%;
+            display: block;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+            background-color: #ffffff;
+        }
+        .content h1, .content h2, .content h3 {
+            color: #003580;
+        }
+        .content p {
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .details {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px;
+            text-align: center;
+            background-color: #ff6200;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #e55a00;
+        }
+        .info-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 20px 0;
+            background-color: #e6f7ff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .info-section img {
+            flex: 1;
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .info-section img:hover {
+            transform: scale(1.05);
+        }
+        .info-section .info-text {
+            flex: 2;
+            padding: 10px;
+        }
+        .footer {
+            background-color: #003580;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #ffa500;
+        }
+        .footer img {
+            width: 100px;
+            display: block;
+            margin: 10px auto;
+        }
+        @media (max-width: 600px) {
+            .info-section {
+                flex-direction: column;
+            }
+            .info-section img, .info-section .info-text {
+                width: 100%;
+                max-width: none;
+            }
+            .info-section:nth-of-type(2) {
+                flex-direction: column;
+            }
+            .info-section:nth-of-type(2) .info-text {
+                order: 2;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333333;
+                color: #ffffff;
+            }
+            .email-container {
+                background-color: #444444;
+            }
+            .header, .footer {
+                background-color: #00214D;
+            }
+            .content h1, .content h2, .content h3 {
+                color: #ffa500;
+            }
+            .details {
+                background-color: #334455;
+            }
+            .info-section {
+                background-color: #223344;
+            }
+            .cta-button {
+                background-color: #ff6200;
+                color: #ffffff;
+            }
+            .footer a {
+                color: #ffa500;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <img src="https://www.hilton.com/modules/assets/svgs/logos/WW.svg" alt="Hilton Logo">
+        </div>
+        <img src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Vacation" class="hero">
+        <div class="content">
+            <h1>Join the Hilton Family Vacation</h1>
+            <p>Dear Guest,</p>
+            <p>We are thrilled to invite you to the Hilton Family Vacation! Enjoy unforgettable moments with your loved ones at our stunning resorts worldwide.</p>
+            <h2>Package Highlights:</h2>
+            <div class="details">
+                <ul>
+                    <li><strong>Luxurious accommodations:</strong>
+                        <p>Enjoy our world-class rooms and suites designed for comfort and relaxation. Our accommodations offer breathtaking views, modern amenities, and a cozy atmosphere to make your stay memorable.</p>
+                    </li>
+                    <li><strong>Exclusive dining experiences:</strong>
+                        <p>Indulge in gourmet meals at our top-rated restaurants. Our chefs use the finest ingredients to prepare dishes that cater to all tastes, ensuring a delightful culinary journey.</p>
+                    </li>
+                    <li><strong>Family-friendly activities:</strong>
+                        <p>Engage in a variety of activities that everyone in the family will love. From beach sports to kids' clubs, there is something for everyone to enjoy during your stay.</p>
+                    </li>
+                    <li><strong>Beautiful locations:</strong>
+                        <p>Discover stunning destinations and make unforgettable memories. Our resorts are situated in some of the most picturesque locations, offering scenic views and a serene environment.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-section">
+                <img src="https://images.pexels.com/photos/1154638/pexels-photo-1154638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Luxurious Accommodations">
+                <div class="info-text">
+                    <h3>Luxurious Accommodations</h3>
+                    <p>Our rooms and suites are designed with your comfort in mind, offering modern amenities and breathtaking views.</p>
+                </div>
+            </div>
+            <div class="info-section">
+                <div class="info-text">
+                    <h3>Exclusive Dining Experiences</h3>
+                    <p>Enjoy gourmet meals prepared by our expert chefs, featuring local and international cuisine.</p>
+                </div>
+                <img src="https://images.pexels.com/photos/1188470/pexels-photo-1188470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Exclusive Dining Experiences">
+            </div>
+            <a href="https://example.com/book-now" class="cta-button">Book Now</a>
+        </div>
+        <div class="footer">
+            <img src="https://www.hilton.com/modules/assets/svgs/logos/WW.svg" alt="Hilton Logo">
+            <p>Contact us at: 1-800-HILTONS</p>
+            <p>
+                <a href="https://facebook.com/hilton">Facebook</a> |
+                <a href="https://twitter.com/hilton">Twitter</a> |
+                <a href="https://instagram.com/hilton">Instagram</a>
+            </p>
+            <p><a href="https://example.com/unsubscribe">Unsubscribe</a></p>
+        </div>
+    </div>
+</body>
+</html>
