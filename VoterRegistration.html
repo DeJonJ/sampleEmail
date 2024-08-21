@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>City of Detroit - Department of Elections</title>
+    <style>
+        /* Reset styles */
+        body { margin: 0; padding: 0; background-color: #f5f5f5; }
+        table { border-collapse: collapse; border-spacing: 0; }
+        td { vertical-align: top; }
+
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+            .container { width: 100% !important; }
+            .header, .footer { padding: 20px !important; }
+            .content { padding: 20px !important; }
+            .logo { width: 120px !important; height: auto !important; }
+            .feature-image { width: 100% !important; height: auto !important; }
+        }
+
+        /* Modern email components */
+        .rounded-corners { border-radius: 10px; }
+        .shadow { box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        .btn { display: inline-block; padding: 12px 24px; background-color: #0C2D48; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 18px; margin-top: 20px; }
+        .btn:hover { background-color: #0a2339; }
+        .highlight { background-color: #f5f5f5; padding: 20px; border-radius: 5px; }
+        .social-icon { display: inline-block; margin: 5px; }
+    </style>
+</head>
+<body>
+    <table class="container rounded-corners shadow" width="600" align="center" bgcolor="#ffffff" style="margin: 20px auto;">
+        <tr>
+            <td class="header" bgcolor="#0C2D48" align="center" >
+                <img class="logo" src="content/DOE Email Banner.png" alt="City of Detroit Logo">
+            </td>
+        </tr>
+        <tr>
+            <td class="content" style="padding: 40px; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #333333;">
+                <h1 style="margin: 0 0 20px;">{{title}}</h1>
+                
+                {{body}}
+
+                <div class="highlight">
+                    <h3>Key Dates &amp; Resources</h3>
+                    <ul>
+                        <li>Primary Election: <strong>August 6th, 2024</strong></li>
+                        <li>General Election: <strong>November 5th, 2024</strong></li>
+                        <li><a href="https://mvic.sos.state.mi.us/Voter/Index">Check Your Voter Registration Status</a></li>
+                        <li><a href="https://mvic.sos.state.mi.us/Voter/Index">Find Your Polling Place</a></li>
+                        <li><a href="https://mvic.sos.state.mi.us/AVApplication/Index">Request an Absentee Ballot</a></li>
+                        <li><a href="https://detroitmi.gov/departments/elections/become-election-day-pollworker">Become an Election Day Pollworker</a></li>
+                    </ul>
+                    <a href="https://detroitmi.gov/departments/elections" class="btn">Visit Our Website</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer rounded-corners" bgcolor="#0C2D48" style="padding: 30px; font-family: Arial, sans-serif; font-size: 14px; color: #ffffff; text-align: center;">
+                <p>
+                    Department of Elections<br>
+                    2978 W Grand Blvd, Detroit, MI 48202<br>
+                    Phone: (313) 876-0190
+                </p>
+                <p>Connect with us:</p>
+                <a href="https://www.facebook.com/janicewinfreycityclerk/" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook" width="32" height="32">
+                </a>
+                <p style="margin-top: 20px;">
+                    <a href="https://public.govdelivery.com/accounts/MIDETROIT/subscriber/new?preferences=true#tab1" style="color: #ffffff; text-decoration: underline;">Unsubscribe(You will need to use your email address to log in.)</a> 
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
